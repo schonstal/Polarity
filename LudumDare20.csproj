@@ -53,6 +53,7 @@
      <None Include="Assets\Platform\Scripts\FollowObject.js" />
      <None Include="Assets\Platform\Scripts\Laser.js" />
      <None Include="Assets\Platform\Scripts\LookAt.js" />
+     <None Include="Assets\Platform\Scripts\NewBehaviourScript.js" />
      <None Include="Assets\Platform\Scripts\Pointer.js" />
      <None Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\CharacterMotor.js" />
      <None Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\FPSInputController.js" />
