@@ -60,13 +60,6 @@ class CharacterMotorMovement {
 
 var movement : CharacterMotorMovement = CharacterMotorMovement();
 
-enum MovementTransferOnJump {
-	None, // The jump is not affected by velocity of floor at all.
-	InitTransfer, // Jump gets its initial velocity from the floor, then gradualy comes to a stop.
-	PermaTransfer, // Jump gets its initial velocity from the floor, and keeps that velocity until landing.
-	PermaLocked // Jump is relative to the movement of the last touched floor and will move together with that floor.
-}
-
 // We will contain all the jumping related variables in one helper class for clarity.
 class CharacterMotorJumping {
 	// Can the character jump?
@@ -109,39 +102,6 @@ class CharacterMotorJumping {
 }
 
 var jumping : CharacterMotorJumping = CharacterMotorJumping();
-
-class CharacterMotorMovingPlatform {
-	var enabled : boolean = true;
-	
-	var movementTransfer : MovementTransferOnJump = MovementTransferOnJump.PermaTransfer;
-	
-	@System.NonSerialized
-	var hitPlatform : Transform;
-	
-	@System.NonSerialized
-	var activePlatform : Transform;
-	
-	@System.NonSerialized
-	var activeLocalPoint : Vector3;
-	
-	@System.NonSerialized
-	var activeGlobalPoint : Vector3;
-	
-	@System.NonSerialized
-	var activeLocalRotation : Quaternion;
-	
-	@System.NonSerialized
-	var activeGlobalRotation : Quaternion;
-	
-	@System.NonSerialized
-	var lastMatrix : Matrix4x4;
-	
-	@System.NonSerialized
-	var platformVelocity : Vector3;
-	
-	@System.NonSerialized
-	var newPlatform : boolean;
-}
 
 class CharacterMotorSliding {
 	// Does the character slide on too steep surfaces?
