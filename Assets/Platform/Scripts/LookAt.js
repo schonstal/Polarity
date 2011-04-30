@@ -19,9 +19,9 @@ function Update ()
 	if (Physics.Raycast (transform.position, Vector3.Normalize(target.position - transform.position), hit)) {
 		
 		if(Input.GetMouseButtonDown(0)) {
-			shoot(hit, Color.red, lineRenderer);
+			shoot(hit, Color.red, lineRenderer, 1);
 		} else if(Input.GetMouseButtonDown(1)) {
-			shoot(hit, Color.blue, lineRenderer);
+			shoot(hit, Color.blue, lineRenderer, -1);
 		} else {
 			lineRenderer.SetColors(Color.clear, Color.clear);
 		}
@@ -30,9 +30,10 @@ function Update ()
 	}
 }
 
-function shoot(hit : RaycastHit, color : Color, lineRenderer : LineRenderer) : void {
+function shoot(hit : RaycastHit, color : Color, lineRenderer : LineRenderer, polarity : int) : void {
 	lineRenderer.SetColors(c1, color);
 	lineRenderer.SetPosition(0, transform.position);
 	lineRenderer.SetPosition(1, hit.point);
 	hit.transform.renderer.material.color = color;
+	hit.transform.parent.GetComponent(Polarity).polarity = polarity;
 }
