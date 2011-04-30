@@ -1,9 +1,5 @@
 Temp
-cache
-metadata
-previews
-ScriptAssemblies
-Library
+Library/
 !EditorBuildSettings.asset
 !InputManager.asset
 !ProjectSettings.asset
