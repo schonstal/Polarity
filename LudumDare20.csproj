@@ -51,6 +51,7 @@
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Platform\FollowObject.js" />
+     <None Include="Assets\Platform\Laser.js" />
      <None Include="Assets\Platform\LookAt.js" />
      <None Include="Assets\Platform\Pointer.js" />
      <None Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\CharacterMotor.js" />
