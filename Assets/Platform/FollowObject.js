@@ -8,7 +8,7 @@ var maximumX = 100;
 var minimumY = -100;
 var maximumY = 100;
 
-function Update() {
+function LateUpdate() {
     if(target) {
 		if(followX) {
 			if(target.position.x > minimumX && target.position.x < maximumX)
