@@ -11,7 +11,7 @@ function Start() {
      lineRenderer.SetVertexCount(2);
 }
 
-function Update() {
+function FixedUpdate() {
     var lineRenderer : LineRenderer = GetComponent(LineRenderer);
 	lineRenderer.SetPosition(0, transform.position);
 	lineRenderer.SetPosition(1, target.position);
