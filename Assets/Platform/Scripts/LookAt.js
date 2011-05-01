@@ -1,6 +1,8 @@
 var target : Transform;
 var c1 : Color = Color.yellow;
 var c2 : Color = Color.red;
+var c3 : Color = Color.blue;
+
 var lengthOfLineRenderer : int = 20;
  
 function Start() {
@@ -18,9 +20,9 @@ function Update ()
 	
 	if (Physics.Raycast (transform.position, Vector3.Normalize(target.position - transform.position), hit)) {
 		
-		if(Input.GetMouseButtonDown(0)) {
+		if(Input.GetMouseButton(0)) {
 			shoot(hit, lineRenderer, 1);
-		} else if(Input.GetMouseButtonDown(1)) {
+		} else if(Input.GetMouseButton(1)) {
 			shoot(hit, lineRenderer, -1);
 		} else {
 			lineRenderer.SetColors(Color.clear, Color.clear);
@@ -31,7 +33,7 @@ function Update ()
 }
 
 function shoot(hit : RaycastHit, lineRenderer : LineRenderer, polarity : int) : void {
-	lineRenderer.SetColors(c1, c2);
+	lineRenderer.SetColors((polarity<0?c3:c2), (polarity<0?c3:c2));
 	lineRenderer.SetPosition(0, transform.position);
 	lineRenderer.SetPosition(1, hit.point);
 	if(hit.transform.tag == "Polarized") {
