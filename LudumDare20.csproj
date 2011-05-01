@@ -50,6 +50,11 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <None Include="Assets\iTween\ReadMe!\ReadMe!.txt" />
+     <Compile Include="Assets\iTween\Sample\MoveSample.cs" />
+     <Compile Include="Assets\iTween\Sample\RotateSample.cs" />
+     <Compile Include="Assets\iTween\Sample\SampleInfo.cs" />
+     <Compile Include="Assets\iTween\iTween.cs" />
      <None Include="Assets\Platform\Scripts\Cursor.js" />
      <None Include="Assets\Platform\Scripts\DoPush.js" />
      <None Include="Assets\Platform\Scripts\FollowObject.js" />
