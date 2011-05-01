@@ -59,6 +59,7 @@
      <None Include="Assets\Platform\Scripts\Pointer.js" />
      <None Include="Assets\Platform\Scripts\Polarity.js" />
      <None Include="Assets\Platform\Scripts\PolarizeGroup.js" />
+     <None Include="Assets\Platform\Scripts\Win.js" />
      <None Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\CharacterMotor.js" />
      <None Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\FPSInputController.js" />
      <Compile Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />

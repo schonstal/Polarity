@@ -1,0 +1,25 @@
+Direct3D:
+    Version:  Direct3D 9.0c [nvd3dum.dll 8.17.11.9621]
+    Renderer: NVIDIA GeForce GTX 260
+    Vendor:   NVIDIA
+    VRAM:     896 MB
+    Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=0 DF24=0 INTZ=1 RAWZ=0 NULL=1 RESZ=0 SlowINTZ=0
+desktop: 1680x1050 59Hz; virtual: 2960x1050 at 0,0
+<I> Initializing (RawInput).
+<RI> Input initialized.
+Non platform assembly: data-03068E40 (this message is harmless)
+Non platform assembly: data-030CDFF0 (this message is harmless)
+Non platform assembly: data-030D11A8 (this message is harmless)
+Non platform assembly: data-030D84E0 (this message is harmless)
+Your 64 bit Windows installation is missing an imporant service pack patch. Please apply http://support.microsoft.com/kb/976038 to ensure stability.
+ 
+(Filename: C:/BuildAgent/work/6bc5f79e0a4296d6/PlatformDependent/Win/wow64.cpp Line: 42)
+
+Platform assembly: C:\Users\randrord\LudumDare20\Polarity_Data\Managed\UnityScript.Lang.dll (this message is harmless)
+Platform assembly: C:\Users\randrord\LudumDare20\Polarity_Data\Managed\Boo.Lang.dll (this message is harmless)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 244.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 196.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)

@@ -1,4 +1,5 @@
+var currentLevel : int = 0;
 
 function OnTriggerEnter (other : Collider) {
-    Application.LoadLevel(0);
+    Application.LoadLevel(currentLevel);
 }
