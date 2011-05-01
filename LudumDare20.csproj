@@ -52,6 +52,7 @@
   <ItemGroup>
      <None Include="Assets\Platform\Scripts\DoPush.js" />
      <None Include="Assets\Platform\Scripts\FollowObject.js" />
+     <None Include="Assets\Platform\Scripts\Kill.js" />
      <None Include="Assets\Platform\Scripts\Laser.js" />
      <None Include="Assets\Platform\Scripts\LookAt.js" />
      <None Include="Assets\Platform\Scripts\Pointer.js" />
