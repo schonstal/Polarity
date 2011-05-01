@@ -1,6 +1,6 @@
 
 function SetPolarity(polarity : int) {
 	for (var child : Transform in transform) {
-    	transform.GetComponent(Polarity).polarity = polarity;
+    	child.transform.GetComponent(Polarity).polarity = polarity;
 	}
 }
