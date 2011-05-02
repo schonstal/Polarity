@@ -13,16 +13,16 @@ function Start() {
      lineRenderer.SetVertexCount(2);
 }
 
-function Update ()
+function LateUpdate ()
 {
 	var hit : RaycastHit;
 	var lineRenderer : LineRenderer = GetComponent(LineRenderer);
 	
 	if (Physics.Raycast (transform.position, Vector3.Normalize(target.position - transform.position), hit)) {
 		
-		if(Input.GetMouseButtonDown(0)) {
+		if(Input.GetMouseButton(0)) {
 			shoot(hit, lineRenderer, 1);
-		} else if(Input.GetMouseButtonDown(1)) {
+		} else if(Input.GetMouseButton(1)) {
 			shoot(hit, lineRenderer, -1);
 		} else {
 			lineRenderer.SetColors(Color.clear, Color.clear);
