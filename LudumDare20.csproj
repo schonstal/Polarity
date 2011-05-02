@@ -55,6 +55,9 @@
      <Compile Include="Assets\iTween\Sample\RotateSample.cs" />
      <Compile Include="Assets\iTween\Sample\SampleInfo.cs" />
      <Compile Include="Assets\iTween\iTween.cs" />
+     <None Include="Assets\Platform\Scripts\Menu\QuitGame.js" />
+     <None Include="Assets\Platform\Scripts\Menu\SelectMenuItem.js" />
+     <None Include="Assets\Platform\Scripts\Menu\StartGame.js" />
      <None Include="Assets\Platform\Scripts\Cursor.js" />
      <None Include="Assets\Platform\Scripts\DoPush.js" />
      <None Include="Assets\Platform\Scripts\FollowObject.js" />

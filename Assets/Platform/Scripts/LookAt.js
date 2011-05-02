@@ -4,7 +4,7 @@ var c2 : Color = Color.red;
 var c3 : Color = Color.blue;
 
 var lengthOfLineRenderer : int = 20;
- 
+  
 function Start() {
      var lineRenderer : LineRenderer = gameObject.AddComponent(LineRenderer);
      lineRenderer.material = new Material (Shader.Find("Particles/Additive"));
@@ -20,9 +20,9 @@ function Update ()
 	
 	if (Physics.Raycast (transform.position, Vector3.Normalize(target.position - transform.position), hit)) {
 		
-		if(Input.GetMouseButton(0)) {
+		if(Input.GetMouseButtonDown(0)) {
 			shoot(hit, lineRenderer, 1);
-		} else if(Input.GetMouseButton(1)) {
+		} else if(Input.GetMouseButtonDown(1)) {
 			shoot(hit, lineRenderer, -1);
 		} else {
 			lineRenderer.SetColors(Color.clear, Color.clear);
