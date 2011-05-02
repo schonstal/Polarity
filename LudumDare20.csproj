@@ -55,11 +55,15 @@
      <Compile Include="Assets\iTween\Sample\RotateSample.cs" />
      <Compile Include="Assets\iTween\Sample\SampleInfo.cs" />
      <Compile Include="Assets\iTween\iTween.cs" />
+     <None Include="Assets\Platform\Scripts\Menu\GoToLevel.js" />
+     <None Include="Assets\Platform\Scripts\Menu\IncrementLevel.js" />
+     <None Include="Assets\Platform\Scripts\Menu\LevelCounter.js" />
      <None Include="Assets\Platform\Scripts\Menu\QuitGame.js" />
      <None Include="Assets\Platform\Scripts\Menu\SelectMenuItem.js" />
      <None Include="Assets\Platform\Scripts\Menu\StartGame.js" />
      <None Include="Assets\Platform\Scripts\Cursor.js" />
      <None Include="Assets\Platform\Scripts\DoPush.js" />
+     <None Include="Assets\Platform\Scripts\FadeIn.js" />
      <None Include="Assets\Platform\Scripts\FollowObject.js" />
      <None Include="Assets\Platform\Scripts\Kill.js" />
      <None Include="Assets\Platform\Scripts\Laser.js" />
@@ -81,6 +85,7 @@
      <None Include="Assets\Standard Assets\Scripts\General Scripts\DragRigidbody.js" />
      <Compile Include="Assets\Standard Assets\Scripts\Utility Scripts\CombineChildren.cs" />
      <Compile Include="Assets\Standard Assets\Scripts\Utility Scripts\MeshCombineUtility.cs" />
+     <Compile Include="Assets\Standard Assets\CameraFade.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

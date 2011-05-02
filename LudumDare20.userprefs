@@ -1,0 +1,13 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Platform\Scripts\Menu\StartGame.js">
+    <Files>
+      <File FileName="Assets\Platform\Scripts\Menu\StartGame.js" Line="6" Column="26" />
+      <File FileName="Assets\Standard Assets\CameraFade.cs" Line="23" Column="9" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
