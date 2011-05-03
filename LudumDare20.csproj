@@ -71,10 +71,12 @@
      <None Include="Assets\Platform\Scripts\Laser.js" />
      <None Include="Assets\Platform\Scripts\LightPolarity.js" />
      <None Include="Assets\Platform\Scripts\LookAt.js" />
+     <None Include="Assets\Platform\Scripts\MusicPlayer.js" />
      <None Include="Assets\Platform\Scripts\Pointer.js" />
      <None Include="Assets\Platform\Scripts\Polarity.js" />
      <None Include="Assets\Platform\Scripts\PolarizeGroup.js" />
      <None Include="Assets\Platform\Scripts\PushConst.js" />
+     <None Include="Assets\Platform\Scripts\UnitySingleton.js" />
      <None Include="Assets\Platform\Scripts\Win.js" />
      <None Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\CharacterMotor.js" />
      <None Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\FPSInputController.js" />
